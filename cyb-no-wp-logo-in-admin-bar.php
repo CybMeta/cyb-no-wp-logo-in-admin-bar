@@ -12,7 +12,7 @@ if( is_admin() ) {
 	//Add custom text in admin footer
 	add_filter('admin_footer_text', 'tbn_footer_admin');
 	function tbn_footer_admin() {
-		echo '<b>Administration of <i>"'.get_bloginfo('name').'"</i> Website</b>. Based on the great <a href="https://wordpress.org/">Wordpress platform</a>.';
+		echo '<b>Administration of <i>"'.get_bloginfo('name').'"</i> Website</b>. Based on the great <a href="https://wordpress.org/">WordPress platform</a>.';
 	}
 }
 
